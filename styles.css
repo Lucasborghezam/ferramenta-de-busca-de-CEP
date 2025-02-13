@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 100vh;
+    color:black;
+    background: url('./img/img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 800px;
+    border-radius: 30px;
+    padding: 40px 10px; 
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.container h1{
+    font-size: 40px;
+    text-align: center;
+    color:#383636
+}
+
+.input-group {
+    width: 100%;
+    position: relative;
+    margin: 30px;
+
+}
+
+.input-group input{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border:2px solid rgba(141, 141, 141, 0.2);
+    font-size: 20px;
+    outline: none;
+    
+}
+
+.input-group button{
+    background: linear-gradient(to bottom right, rgba(11, 131, 120, 1), rgba(85, 98, 112, 1));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;    
+}
+
+.input-group button:hover{
+    background: linear-gradient(to bottom right, rgba(150, 123, 111, 1), rgba(85, 81, 84, 1));
+}
+
+.input-group button:active{ 
+    transform: translateY(1px); 
+    background: rgb(120, 123, 111);
+}
+
+.table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background: linear-gradient(to bottom right, rgba(11, 131, 120, 1), rgba(85, 98, 112, 1));
+    color: white;
+    text-align: left;
+}
+
+.table th {
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.2s;
+}
+
+.ordenar {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.ordenar:hover {
+    color: #ddd;
+}
+
+.table-container {
+    max-height: 300px; 
+    overflow-y: auto; 
+    
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}

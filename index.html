@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulte o CEP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consultar CEP</h1>
+
+        
+        <div class="input-group">
+            <input type="text" id="cep" placeholder="Digite o CEP" maxlength="8">
+            <button id="buscar">Buscar Endereço</button>
+        </div>
+
+        
+        <p id="mensagem-erro" class="erro"></p>
+
+        
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>CEP</th>
+                        <th>Rua</th>
+                        <th>Bairro <button class="ordenar" data-coluna="bairro">↕</button></th>
+                        <th>Cidade <button class="ordenar" data-coluna="cidade">↕</button></th>
+                        <th>Estado <button class="ordenar" data-coluna="estado">↕</button></th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="tabela-enderecos">
+                    
+                
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>     
+
+    <script src="scripts.js"></script>
+</body>
+</html>
