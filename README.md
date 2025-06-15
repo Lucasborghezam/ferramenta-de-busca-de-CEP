@@ -2,7 +2,7 @@
 
 Este é um projeto que permite consultar endereços através do CEP utilizando a API pública ViaCEP. Os endereços consultados são armazenados para futuras consultas e podem ser ordenados por **Bairro, Cidade e Estado**.
 
-🔗 **Acesse o projeto online:** [Consultador de CEP](https://lucasborghezam.github.io/Consultador-de-CEP/)
+🔗 **Acesse o projeto online:** [Ferramenta de busca de CEP]([https://lucasborghezam.github.io/Consultador-de-CEP/](https://lucasborghezam.github.io/ferramenta-de-busca-de-CEP/))
 ---
 
 ## 🚀 Funcionalidades
